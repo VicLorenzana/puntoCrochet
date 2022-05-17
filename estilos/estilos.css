@@ -31,6 +31,7 @@ a{
     text-decoration: none;
     color:white;
     font-weight: 1000;
+        
 }
 
 #introduccion {
@@ -212,4 +213,9 @@ color:white;
         gap: 15px;
         justify-content: center;
         align-items: end;}
+
+    a:hover{
+      background-color: white;
+      color:  rgb(7, 192, 192);
+    }
 
