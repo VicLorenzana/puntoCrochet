@@ -58,10 +58,7 @@ h2{
     font-size:  40px;
 }
 
-h3{
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
+
 
 p{
     font-size: 25px;
@@ -100,25 +97,6 @@ figcaption{
 color:white;
 }
 
-
-
-.cuadricula{
-    display: grid ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    height:2000px;
-    justify-content: center;
-    justify-items: center;
-    grid-template-areas: 
-    "portada headerindex headerindex headerindex"
-    "descripcion descripcion descripcion descripcion"
-    "losmasvendidos losmasvendidos losmasvendidos losmasvendidos"
-    "galeriaindex galeriaindex galeriaindex galeriaindex "
-    "quieresaprenderatejer quieresaprenderatejer quieresaprenderatejer quieresaprenderatejer"
-    "footerindex footerindex footerindex footerindex"
-    ;
-  }
-
 /* Index */
 
 .headerindex{
@@ -147,7 +125,16 @@ color:white;
     grid-area: quieresaprenderatejer;
     height: auto;
     justify-content: center;
+    align-items: center;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+.iframe{
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .footerindex{
     display:flex;
