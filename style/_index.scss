@@ -1,0 +1,16 @@
+
+.descripcion{
+    grid-area: descripcion;
+    height: auto;
+    margin: 5px;
+    h1{
+        font-size: 50px;
+        margin-bottom: 10px;
+        color:rgb(7, 192, 192);
+        margin-top: 3   5px;
+    }
+    p{
+        background-color: rgb(7, 192, 192);
+        color: white;
+    }
+}

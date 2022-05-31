@@ -1,68 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
-header{
-    background-color: rgb(7, 192, 192);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: 400px;
-    height: 400px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-ul li{
-    list-style-type: none;
-    display: inline-block;
-    font-size: 40px;
-    padding: 30px 30px 30px 30px;
-    margin: 5px 5px 5px 5px;
-    text-decoration: none;
-    background-color: rgb(7, 192, 192);
-    
-}
-
-a{
-    text-decoration: none;
-    color:white;
-    font-weight: 1000;
-        
-}
-
-#introduccion {
-    background-color: rgb(7, 192, 192);
-    color: white;
-}
-
-body{
-    font-family: 'Sora', sans-serif;
-}
-
-h1{
-    font-size: 50px;
-    margin-bottom: 10px;
-    color:rgb(7, 192, 192);
-    margin-top: 3   5px;
-}
-
-h2{
-    color: rgb(7, 192, 192);
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size:  40px;
-}
-
-
-
-p{
-    font-size: 25px;
-}
+@import "general";
+@import "index";
 
 
 #importante{
@@ -70,24 +7,6 @@ p{
     font-stretch: condensed;
 }
 
-.portada{
-    border: 1px solid #ddd;
-    width: fit-content; 
-  margin-left: auto;
-  margin-right: auto;
-    height: fit-content;
-    background-color: rgb(7, 192, 192);
-}
-
-section {
-    margin: 5px;
-}
-
-footer{
-    margin: 200px, 0px,0px,0px;
-    padding: 50px 50px 50px 50px;
-    background-color: rgb(7, 192, 192);
-}
 
 figcaption{
     font-size: 20px;
@@ -99,15 +18,8 @@ color:white;
 
 /* Index */
 
-.headerindex{
-    grid-area: headerindex;
-    height: auto;
-}
 
-.descripcion{
-    grid-area: descripcion;
-    height: auto;
-}
+
 
 
 .losmasvendidos{
@@ -129,6 +41,8 @@ color:white;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    }
 
 .iframe{
     margin-left: auto;
@@ -205,5 +119,4 @@ color:white;
     a:hover{
       background-color: white;
       color:  rgb(7, 192, 192);
-    }
-
+}
