@@ -1,5 +1,7 @@
 @import "general";
 @import "index";
+@import "amigurumis";
+@import "operaciones";
 
 
 #importante{
@@ -119,4 +121,39 @@ color:white;
     a:hover{
       background-color: white;
       color:  rgb(7, 192, 192);
+    
+}
+
+.estilopredeterminado{
+    font-size: 25px;
+    background-color: #07C0C0;
+    color: white
+}
+
+$marcos:(
+    1:#07C0C0,
+    2: #000000,
+    
+    );
+
+
+
+
+@each $colordemarco, $nombredecolor in $marcos {    
+    .imga--#{$colordemarco}{
+        border-color: $nombredecolor;
+         }
+          };
+
+.descripcionamigurumis{
+    @extend.estilopredeterminado 
+}
+
+@mixin style ($color, $backgroundcolor) {
+    fontcolor:$color;
+    background-color:$backgroundcolor;
+}
+
+.descripcionbebes{
+    @include style (gray, white);
 }

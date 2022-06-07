@@ -151,32 +151,32 @@ figcaption {
 }
 
 .headeramigurumis {
-  grid-row: 1;
-  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: headeramigurumis;
   height: auto;
 }
 
 .descripcionamigurumis {
-  grid-row: 2;
-  grid-column: 1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: descripcionamigurumis;
   height: auto;
 }
 
 .galeriaamigurumis {
-  grid-row: 3;
-  grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: galeriaamigurumis;
   height: auto;
 }
 
 .footeramigurumis {
-  grid-row: 4;
-  grid-column: 1;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: footeramigurumis;
   height: auto;
@@ -195,10 +195,7 @@ figcaption {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: center;
-      grid-template-areas: "headeramigurumis headeramigurumis headeramigurumis headeramigurumis"
- "descripcionamigurumis descripcionamigurumis descripcionamigurumis descripcionamigurumis"
- "galeriaamigurumis galeriaamigurumis galeriaamigurumis galeriaamigurumis"
- "footeramigurumis footeramigurumis footeramigurumis footeramigurumis ";
+      grid-template-areas: "headeramigurumis headeramigurumis headeramigurumis headeramigurumis" "descripcionamigurumis descripcionamigurumis descripcionamigurumis descripcionamigurumis" "galeriaamigurumis galeriaamigurumis galeriaamigurumis galeriaamigurumis" "footeramigurumis footeramigurumis footeramigurumis footeramigurumis ";
 }
 
 .hijoamigurumis {
@@ -221,5 +218,24 @@ figcaption {
 a:hover {
   background-color: white;
   color: #07c0c0;
+}
+
+.estilopredeterminado, .descripcionamigurumis {
+  font-size: 25px;
+  background-color: #07C0C0;
+  color: white;
+}
+
+.imga--1 {
+  border-color: #07C0C0;
+}
+
+.imga--2 {
+  border-color: #000000;
+}
+
+.descripcionbebes {
+  fontcolor: gray;
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
