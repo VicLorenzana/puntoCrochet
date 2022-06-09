@@ -2,6 +2,7 @@
 @import "index";
 @import "amigurumis";
 @import "operaciones";
+@import "navidad";
 
 
 #importante{
@@ -157,3 +158,8 @@ $marcos:(
 .descripcionbebes{
     @include style (gray, white);
 }
+
+.tituloamigurumis {
+    height: 15px;
+    
+    }
